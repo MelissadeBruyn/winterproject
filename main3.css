@@ -10,8 +10,8 @@ background-image: url("https://images.pexels.com/photos/355770/pexels-photo-3557
 
 ul {
   list-style-type: none;
-  margin: 100;
-  padding: 0.5px;
+  margin: 10;
+  padding: 0;
   overflow: hidden;
   background-color: white;
 	border-radius: 15px;
@@ -33,51 +33,23 @@ li a {
 li a:hover {
   background-color: #ffd1e1;
 }
-p1 {
-  font-family: "Courier New", Times, serif;
-	color: #f9688e;
-	text-align: center;
-  font-size: 70px;
-	padding-left: 100px;
-  padding-right: 20px;
-}
 
 p {
   font-family: "Courier New", Times, serif;
-	color: #3e3f42;
-	text-align: right;
-	font-size: 20px;
+	color: #f9688e;
+	text-align: center;
+	font-size: 70px;
 }
 
 .square {
-  height: 1000px;
-  width: 1150px;
+  height: 240px;
+  width: 500px;
   background-color: white;
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-left: 100px;
-	margin-bottom: 0;
-	margin-right: 50px;
+	margin-bottom: 2000;
+	margin-right: 100px;
 	position: fixed;
 	border-radius: 15px;
-	font-family: "Courier New", Times, serif;
-	color: grey;
-	text-align: left;
-	font-size: 30px;
 }
 
-.text-block {
-  position: absolute;
-  color: white;
-  padding-left: 600px;
-  padding-right: 30px;
-	padding-top: 270px;
-}
-
-.image
-	{
-		position: absolute;
-		top: 40px;
-		left: 40px;
-		padding-right: 700px;
-    size: 100px, 200px;
-	}

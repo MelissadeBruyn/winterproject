@@ -5,7 +5,7 @@ background-image: url("https://images.pexels.com/photos/355770/pexels-photo-3557
 	background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-	 background-size: 1410px, 8900px;
+	background-size: 1410px, 8900px;
 }
 
 ul {
@@ -15,6 +15,7 @@ ul {
   overflow: hidden;
   background-color: white;
 	border-radius: 15px;
+	box-shadow: 2px 2px 50px #a3a3a3;
 }
 
 li {
@@ -45,11 +46,78 @@ p {
   height: 240px;
   width: 500px;
   background-color: white;
-	margin-top: 30px;
+	margin-top: 0px;
 	margin-left: 100px;
 	margin-bottom: 2000;
 	margin-right: 100px;
 	position: fixed;
 	border-radius: 15px;
+	box-shadow: 3px 3px 50px #a3a3a3;
+
+}
+p1 {
+   font-family: "Courier New", Times, serif;
+	color: #3e3f42;
+	text-align: left;
+	font-size: 20px;
 }
 
+	.text-block {
+		position: absolute;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 30px;
+	}
+
+
+.square1 {
+	position: fixed;
+  height: 30px;
+  width:20px;
+  background-color:#f9688e ;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0;
+	margin-right: 0px;
+	position: fixed;
+	border-radius: 5px;
+	box-shadow: 2px 2px 40px #a3a3a3;
+	transform: rotate(90deg);
+	padding-left: 2500px;
+	z-index: -1;
+
+}
+
+.square2 {
+	position: fixed;
+  height: 30px;
+  width:10px;
+  background-color: white;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0;
+	margin-right: 0px;
+	position: fixed;
+	border-radius: 5px;
+	box-shadow: 2px 2px 40px #a3a3a3;
+	transform: rotate(90deg);
+	padding-left: 2100px;
+
+}
+
+.square3 {
+	position: fixed;
+  height: 30px;
+  width:10px;
+  background-color: white;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0;
+	margin-right: 0px;
+	position: fixed;
+	border-radius: 5px;
+	box-shadow: 2px 2px 40px #a3a3a3;
+	transform: rotate(90deg);
+	padding-left: 2200px;
+
+}

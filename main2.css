@@ -14,6 +14,7 @@ ul {
   overflow: hidden;
   background-color: white;
 	border-radius: 15px;
+	box-shadow: 2px 2px 50px #a3a3a3;
 }
 
 li {
@@ -41,6 +42,14 @@ p {
 	margin-right: 50px;
 }
 
+
+p1 {
+   font-family: "Courier New", Times, serif;
+	color: #3e3f42;
+	text-align: left;
+	font-size: 20px;
+}
+
 .square {
   height: 1000px;
   width: 1150px;
@@ -51,5 +60,24 @@ p {
 	margin-right: 50px;
 	position: fixed;
 	border-radius: 15px;
+	box-shadow: 3px 3px 50px #a3a3a3;
 }
+
+.text-block {
+  position: absolute;
+  color: white;
+  padding-left: 50px;
+  padding-right: 600px;
+	padding-top: 60px;
+}
+
+.image
+	{
+		position: absolute;
+		top: 40px;
+		left: 600px;
+		padding-right: 0px;
+    size: 100px, 200px;
+		border-radius: 15px;
+	}
 
